@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>doc-dir</param-name>
+    <param-value>F:\4 cours\Java\13\src\main\resources</param-value>
+  </context-param>
+
+
+  <servlet>
+    <servlet-name>Sss</servlet-name>
+    <servlet-class>servlet.Sss</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Sss</servlet-name>
+    <url-pattern>/Sss</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Msdoc</servlet-name>
+    <servlet-class>servlet.Msdoc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Msdoc</servlet-name>
+    <url-pattern>/Msdoc</url-pattern>
+  </servlet-mapping>
+
+</web-app>
